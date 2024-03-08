@@ -5,7 +5,7 @@ extends CharacterBody2D
 @export var can_double_jump = true;
 @export var can_floor_slide = true;
 
-
+# Movement constants
 const RUN_DECEL = 10000.0
 const RUN_ACCEL = 2000.0;
 const MAX_RUN_SPEED = 275.0
